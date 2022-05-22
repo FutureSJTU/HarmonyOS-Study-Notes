@@ -1,0 +1,37 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chart-region {
+    height: 400px;
+    width: 700px;
+}
+.chart-background {
+    object-fit: fill;
+}
+.chart-data {
+    padding: 12px 12px 0px;
+    margin-left: 15px;
+
+/*    width: 700px;*/
+/*    height: 600px;*/
+}
+.div_divider{
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+    margin-top: 12px;
+    margin-right: 12px;
+/*    margin-bottom: 12px;*/
+}
+.xAxis{
+    font-size: 12px;
+    text-align: right;
+    width: 32px;
+    margin-right: 3px;
+    focus-color: #212121;
+}
+.divider{
+    color: #E7E7E7;
+}

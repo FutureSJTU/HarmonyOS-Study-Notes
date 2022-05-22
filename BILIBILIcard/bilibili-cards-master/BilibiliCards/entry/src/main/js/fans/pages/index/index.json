@@ -1,0 +1,16 @@
+{
+  "data": {
+    "code":0,
+    "message":"0",
+    "follower": 0,
+    "src": "",
+    "vip": ""
+  },
+  "actions": {
+    "sendRouterEvent": {
+      "action": "router",
+      "abilityName": "com.liangzili.demos.Player",
+      "params": true
+    }
+  }
+}

@@ -1,0 +1,85 @@
+<div>
+    <div style="justify-content: center;width: 100%;height: 100%;" if="{{code}}">
+        <text>{{message}}</text>
+    </div>
+    <div class="div_root" else>
+        <div class="row" >
+<!--            <div class="column" style="border-color: #8dd5ed;" >-->
+            <div class="column" style="border-color: {{color1}}" onclick="sendMessageEvent1">
+                <text class="title">视频播放</text>
+                <text class="data">{{data.total_click}}</text>
+                <div>
+                    <text class="title">昨日</text>
+                    <text class="data">▲</text>
+                    <text class="incre_data">{{data.incr_click}}</text>
+                </div>
+            </div>
+            <div class="column" style="border-color: {{color2}}" onclick="sendMessageEvent2">
+                <text class="title">评论数</text>
+                <text class="data">{{data.total_reply}}</text>
+                <div>
+                    <text class="title">昨日</text>
+                    <text class="data">▲</text>
+                    <text class="incre_data">{{data.incr_reply}}</text>
+                </div>
+            </div>
+            <div class="column" style="border-color: {{color3}}" onclick="sendMessageEvent3">
+                <text class="title">弹幕数</text>
+                <text class="data">{{data.total_dm}}</text>
+                <div>
+                    <text class="title">昨日</text>
+                    <text class="data">▲</text>
+                    <text class="incre_data">{{data.incr_dm}}</text>
+                </div>
+            </div>
+            <div class="column" style="border-color: {{color4}}" onclick="sendMessageEvent4">
+                <text class="title">点赞数</text>
+                <text class="data">{{data.total_like}}</text>
+                <div>
+                    <text class="title">昨日</text>
+                    <text class="data">▲</text>
+                    <text class="incre_data">{{data.inc_like}}</text>
+                </div>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="column" style="border-color: {{color5}}" onclick="sendMessageEvent5">
+                <text class="title">分享数</text>
+                <text class="data">{{data.total_share}}</text>
+                <div>
+                    <text class="title">昨日</text>
+                    <text class="data">▲</text>
+                    <text class="incre_data">{{data.inc_share}}</text>
+                </div>
+            </div>
+            <div class="column" style="border-color: {{color6}}" onclick="sendMessageEvent6">
+                <text class="title">硬币数</text>
+                <text class="data">{{data.total_coin}}</text>
+                <div>
+                    <text class="title">昨日</text>
+                    <text class="data">▲</text>
+                    <text class="incre_data">{{data.inc_coin}}</text>
+                </div>
+            </div>
+            <div class="column" style="border-color: {{color7}}" onclick="sendMessageEvent7">
+                <text class="title">收藏数</text>
+                <text class="data">{{data.total_fav}}</text>
+                <div>
+                    <text class="title">昨日</text>
+                    <text class="data">▲</text>
+                    <text class="incre_data">{{data.inc_fav}}</text>
+                </div>
+            </div>
+            <div class="column" style="border-color: {{color8}}" onclick="sendMessageEvent8">
+                <text class="title">充电数</text>
+                <text class="data">{{data.total_elec}}</text>
+                <div>
+                    <text class="title">昨日</text>
+                    <text class="data">▲</text>
+                    <text class="incre_data">{{data.inc_elec}}</text>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

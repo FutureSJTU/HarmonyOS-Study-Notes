@@ -1,0 +1,31 @@
+.div_root {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+}
+.row{
+    height: 48%;
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
+    padding: 3px;
+    width: 24%;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #f7fcfe;
+    background-color: #f7fcfe;
+}
+.title{
+    color: #757575;
+    font-size: 12px;
+}
+.data{
+    margin: 2px;
+    font-size: 14px;
+    color: #00a1d6;
+}
+.incre_data{
+    font-size: 10px;
+    color: #00a1d6;
+}

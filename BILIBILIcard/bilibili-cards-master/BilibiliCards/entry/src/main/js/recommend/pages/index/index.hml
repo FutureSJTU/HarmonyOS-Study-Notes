@@ -1,0 +1,14 @@
+<div>
+    <div style="justify-content: center;width: 100%;height: 100%;" if="{{code}}">
+        <text>{{message}}</text>
+    </div>
+        <list class="list" style="columns: {{columns}};" >
+            <list-item for="{{item}}">
+                <div class="div" onclick="sendRouteEvent">
+                    <image src="{{$item.pic}}" class="image"></image>
+                    <text class="title">{{$item.title}}</text>
+                    <text class="name">{{$item.owner.name}}</text>
+                </div>
+            </list-item>
+        </list>
+</div>

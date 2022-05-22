@@ -1,0 +1,19 @@
+{
+  "data": {
+    "code":0,
+    "message":"0",
+    "columns": 2,
+    "item":[]
+  },
+  "actions": {
+    "sendRouteEvent": {
+      "action": "router",
+      "bundleName": "com.liangzili.demos",
+      "abilityName": "com.liangzili.demos.Video",
+      "params": {
+        "url": "{{$item.uri}}",
+        "index": "{{$idx}}"
+      }
+    }
+  }
+}

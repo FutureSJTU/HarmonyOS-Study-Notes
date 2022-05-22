@@ -1,0 +1,105 @@
+{
+  "data": {
+    "code":0,
+    "message":"0",
+    "ttl":1,
+    "data":[],
+    "xAxis1": 1000,
+    "xAxis2": 800,
+    "xAxis3": 600,
+    "xAxis4": 400,
+    "xAxis5": 200,
+    "datasets": [
+      {
+        "strokeColor": "#FF00CEF4",
+        "fillColor": "#FF00CEF4",
+        "data": [
+          {
+            "value": 0,
+            "description": "0",
+            "textLocation": "top",
+            "textColor": "#CDCACA",
+            "pointStyle": {
+              "shape": "circle",
+              "size": 5,
+              "fillColor": "#FF9C28",
+              "strokeColor": "#FF9C28"
+            }
+          },
+          {"value": 0},
+          {"value": 0},
+          {"value": 0},
+          {"value": 2},
+          {"value": 2},
+          {"value": 2},
+          {"value": 2},
+          {"value": 4},
+          {"value": 4},
+          {"value": 4},
+          {"value": 4},
+          {"value": 6},
+          {"value": 6},
+          {"value": 6},
+          {"value": 6},
+          {"value": 8},
+          {"value": 8},
+          {"value": 8},
+          {"value": 8},
+          {"value": 10},
+          {"value": 10},
+          {"value": 10},
+          {"value": 10}
+        ],
+        "gradient": true
+      }
+    ],
+    "options": {
+      "xAxis": {
+        "min": 0,
+        "max": 29,
+        "display": false,
+        "axisTick": 0
+      },
+      "yAxis": {
+        "min": 0,
+        "max": 10,
+        "display": false,
+        "axisTick": 5
+      },
+      "series": {
+        "lineStyle": {
+          "width": "3px",
+          "smooth": false
+        },
+        "headPoint": {
+          "shape": "circle",
+          "size": 2,
+          "strokeWidth": 5,
+          "fillColor": "#ffffff",
+          "strokeColor": "#007aff",
+          "display": true
+        },
+        "topPoint": {
+          "shape": "circle",
+          "size": 2,
+          "strokeWidth": 5,
+          "fillColor": "#ffffff",
+          "strokeColor": "#007aff",
+          "display": true
+        },
+        "bottomPoint": {
+          "shape": "circle",
+          "size": 2,
+          "strokeWidth": 5,
+          "fillColor": "#ffffff",
+          "strokeColor": "#007aff",
+          "display": true
+        },
+        "loop": {
+          "margin": 2,
+          "gradient": true
+        }
+      }
+    }
+  }
+}

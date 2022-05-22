@@ -1,0 +1,14 @@
+<div>
+    <div style="justify-content: center;width: 100%;height: 100%;" if="{{code}}">
+        <text style="font-size: {{font-size}};" >{{message}}</text>
+    </div>
+    <list class="list" else>
+        <list-item for="{{cards}}" class="list-item">
+            <div class="div" onclick="sendRouteEvent">
+                <image class="item_image" src="{{ $item.pic }}"></image>
+                <text class="item_name">{{ $item.name }}</text>
+                <text class="item_title">{{ $item.title }}</text>
+            </div>
+        </list-item>
+    </list>
+</div>

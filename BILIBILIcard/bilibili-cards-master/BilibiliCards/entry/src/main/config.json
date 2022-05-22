@@ -1,0 +1,292 @@
+{
+  "app": {
+    "bundleName": "com.liangzili.demos",
+    "vendor": "liangzili",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "reqPermissions": [
+      {"name": "ohos.permission.INTERNET"},
+      {"name": "ohos.permission.DISTRIBUTED_DATASYNC"},
+      {"name": "ohos.permission.DISTRIBUTED_DEVICE_STATE_CHANGE"},
+      {"name": "ohos.permission.GET_DISTRIBUTED_DEVICE_INFO" },
+      {"name": "ohos.permission.GET_BUNDLE_INFO"}
+    ],
+    "package": "com.liangzili.future_bilibilicard",
+    "name": ".MyApplication",
+    "mainAbility": "com.liangzili.future_bilibilicard.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        },
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.liangzili.future_bilibilicard.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard",
+        "formsEnabled": true,
+        "forms": [
+          {
+            "jsComponentName": "dynamic",
+            "isDefault": false,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*2",
+            "name": "dynamic",
+            "description": "视频动态",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "2*2",
+              "2*4",
+              "4*4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          },
+          {
+            "jsComponentName": "followList",
+            "isDefault": false,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*4",
+            "name": "followList",
+            "description": "追番列表",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "2*4",
+              "4*4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          },
+          {
+            "jsComponentName": "recommend",
+            "isDefault": false,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*4",
+            "name": "recommend",
+            "description": "视频推荐",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "2*2",
+              "2*4",
+              "4*4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          },
+          {
+            "jsComponentName": "slideShow",
+            "isDefault": false,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*2",
+            "name": "slideShow",
+            "description": "番剧推荐",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "2*2",
+              "4*4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          },
+          {
+            "jsComponentName": "fans",
+            "isDefault": true,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "1*2",
+            "name": "fans",
+            "description": "粉丝数据",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "1*2"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          },
+          {
+            "jsComponentName": "stat",
+            "isDefault": false,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*4",
+            "name": "stat",
+            "description": "视频数据",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "2*4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          },
+          {
+            "jsComponentName": "pandect",
+            "isDefault": false,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*4",
+            "name": "pandect",
+            "description": "数据增量趋势",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "2*4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          }
+        ]
+      },
+      {
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        },
+        "orientation": "unspecified",
+        "name": "com.liangzili.future_bilibilicard.Video",
+        "icon": "$media:icon",
+        "description": "$string:video_description",
+        "label": "$string:entry_Video",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "metaData": {
+        "customizeData": [
+          {
+            "name": "hwc-theme",
+            "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+            "extra": ""
+          }
+        ]
+      },
+        "orientation": "unspecified",
+        "name": "com.liangzili.future_bilibilicard.Player",
+        "icon": "$media:icon",
+        "description": "$string:player_description",
+        "label": "$string:entry_Player",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "stat",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "pandect",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "dynamic",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "followList",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "fans",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "recommend",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "slideShow",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "Bilibili"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Video",
+      "value": "entry_Video"
+    },
+    {
+      "name": "video_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "video_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Player",
+      "value": "entry_Player"
+    },
+    {
+      "name": "player_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "player_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

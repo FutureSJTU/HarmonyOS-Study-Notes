@@ -1,0 +1,25 @@
+<!--
+indicator="false"
+autoplay="true" interval="1000"
+loop="true"
+vertical="true"
+index="{{index}}"
+-->
+<swiper class="card_root_layout" indicator="true" autoplay="true" interval="10" loop="true" vertical="true">
+    <stack class="stack-parent">
+        <image src="{{src0}}" class="item_image"></image>
+        <text class="item_title">{{title0}}</text>
+    </stack>
+    <stack class="stack-parent">
+        <image src="{{src1}}" class="item_image">></image>
+        <text class="item_title">{{title1}}</text>
+    </stack>
+    <stack class="stack-parent">
+        <image src="{{src2}}" class="item_image">></image>
+        <text class="item_title">{{title2}}</text>
+    </stack>
+    <stack class="stack-parent">
+        <image src="{{src3}}" class="item_image">></image>
+        <text class="item_title">{{title3}}</text>
+    </stack>
+</swiper>

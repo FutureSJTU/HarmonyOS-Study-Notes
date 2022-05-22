@@ -1,0 +1,39 @@
+<div>
+    <div style="justify-content: center;width: 100%;height: 100%;" if="{{code}}">
+        <text>{{message}}</text>
+    </div>
+    <div class="container" else>
+        <stack class="chart-region">
+<!--            <image class="chart-background" src="common/background.png"></image>-->
+            <div class="div_divider" >
+                <div>
+                    <text class="xAxis">{{ xAxis1 }}</text>
+                    <divider class="divider" ></divider>
+                </div>
+                <div>
+                    <text class="xAxis">{{ xAxis2 }}</text>
+                    <divider class="divider" ></divider>
+                </div>
+                <div>
+                    <text class="xAxis">{{ xAxis3 }}</text>
+                    <divider class="divider" ></divider>
+                </div>
+                <div>
+                    <text class="xAxis">{{ xAxis4 }}</text>
+                    <divider class="divider" ></divider>
+                </div>
+                <div>
+                    <text class="xAxis">{{ xAxis5 }}</text>
+                    <divider class="divider" ></divider>
+                </div>
+                <div>
+                    <text class="xAxis">0</text>
+                    <divider class="divider" ></divider>
+                </div>
+            </div>
+
+            <chart class="chart-data" type="line" ref="linechart" options="{{options}}" datasets="{{datasets}}"></chart>
+        </stack>
+<!--        <button value="Add data" onclick="addData"></button>-->
+    </div>
+</div>

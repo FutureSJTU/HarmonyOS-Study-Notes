@@ -1,0 +1,33 @@
+.list{
+    margin:6px;
+/*    columns:2;*/
+    align-items:center; /*list每一列交叉轴上的对齐格式：元素在交叉轴居中*/
+}
+
+.div{
+    flex-direction: column;
+    align-items: flex-start;
+    margin:6px;
+    border-radius: 5px; /*这里的圆角会被图片覆盖成直角，所以在图片里也设置了圆角*/
+    background-color: #f2f2f2;
+}
+
+.image{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title{
+    margin:5px 8px 0px; /*上、左右、下*/
+    font-size: 10px;
+    max-lines: 2;
+    height: 20px;
+    color: #262626;
+    text-overflow: ellipsis;    /* 省略号 */
+}
+
+.name{
+    margin:8px 8px 5px;
+    font-size: 10px;
+    color: #AAAAAA;
+}

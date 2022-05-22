@@ -1,0 +1,83 @@
+.list{
+    columns:4;  /*list交叉轴方向的显示列数，默认为1列。*/
+    align-items:center; /*list每一列交叉轴上的对齐格式：元素在交叉轴居中*/
+    margin:6px;                 /*外边距属性：只有一个值时，这个值会被指定给全部的四个边。*/
+}
+.div {
+    flex-direction: column;         /*flex容器主轴方向，column：垂直方向从上到下。*/
+    justify-content: flex-start;    /*flex容器当前行的主轴对齐格式，flex-start：项目位于容器的开头。*/
+    margin:6px;
+}
+.stack{
+
+}
+.item_cover {
+    border-radius: 5px;
+    background-color: #F1F3F5;      /*设置背景颜色。*/
+}
+
+.item_badge{
+    position: absolute; /*相对于父元素进行定位*/
+    top: 3px;           /*需要配合position样式使用，来确定元素的偏移位置*/
+    right: 3px;
+
+    font-size: 9px;
+    font-weight: bold;
+/*    padding: 1px 2px;*/
+    radius: 5px;
+    color: #FFFFFF;
+/*    background-color: #FB7299;*/
+/*    background-color: "{{$item.badge_info.bg_color}}";!*行不通*!*/
+}
+.item_index_show{
+    position: absolute; /*相对于父元素进行定位*/
+    bottom: 3px;        /*需要配合position样式使用，来确定元素的偏移位置*/
+    right: 3px;
+
+    font-size: 9px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    max-lines:1;
+    color: #FFFFFF;
+/*    opacity: 1;*/
+}
+.item_div{
+    height: 80px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.item_title {
+    margin-top: 10px;           /*设置上边距。*/
+    font-size: 12px;            /*设置文本的尺寸。*/
+    font-weight: bold;          /*设置文本的字体粗细。取值[100, 900]，默认为400。*/
+    max-lines:1;                /*设置文本的最大行数。*/
+    text-overflow: ellipsis;    /*根据父容器大小显示，显示不下的文本用省略号代替。需配合max-lines使用。*/
+    color: #e5000000;           /*设置文本的颜色。*/
+    opacity: 1;                 /*元素的透明度，取值范围为0到1。*/
+/*    background-color: #F1F3F5;*/
+}
+
+.item_progress {
+    margin-top: 5px;
+    font-size: 9px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    max-lines:1;
+    color: #99000000;
+    opacity: 1;
+/*    background-color: #F1F3F5;*/
+}
+
+@media (dark-mode: true) {          /*当前系统为深色模式时，使用这里的配置，如果没有颜色设置，可以不设置*/
+    .item_cover {
+        border-radius: 5px;
+        background-color: #202224;
+    }
+    .item_title{
+        color:#ffffff;  /*设置标题字体颜色为白色，防止深色模式与背景无法区分*/
+    }
+}
+
+

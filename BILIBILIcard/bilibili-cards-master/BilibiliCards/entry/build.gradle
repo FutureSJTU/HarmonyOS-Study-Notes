@@ -1,0 +1,42 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+//    signingConfigs {
+//        debug {
+//            storeFile file('C:\\Users\\Brigh\\.ohos\\config\\auto_debug_2850086000419218943.p12')
+//            storePassword '000000185776A2189AAFD7B76E9699D18856032E286E94AA137873CFB8A80D39CECAE5B55EA8C96D'
+//            keyAlias = 'debugKey'
+//            keyPassword '0000001833F6A01652B4E237FD1CE6E696F497C3B322771F9E28502511317932366E8F214BADAE7F'
+//            signAlg = 'SHA256withECDSA'
+//            profile file('C:\\Users\\Brigh\\.ohos\\config\\auto_debug_demos_2850086000419218943.p7b')
+//            certpath file('C:\\Users\\Brigh\\.ohos\\config\\auto_debug_2850086000419218943.cer')
+//        }
+//    }
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+    compileOptions { annotationEnabled true }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testImplementation 'junit:junit:4.13'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.200'
+
+    implementation 'com.zzrv5.zzrhttp:ZZRHttp:1.0.1'
+    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.29'
+}
+decc {
+    supportType = ['html', 'xml']
+}

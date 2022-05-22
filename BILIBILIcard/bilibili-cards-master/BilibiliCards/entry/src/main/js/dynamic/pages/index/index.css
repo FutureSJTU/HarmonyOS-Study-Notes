@@ -1,0 +1,31 @@
+.list{
+    columns:1;  /*list交叉轴方向的显示列数，默认为1列。*/
+    align-items:center; /*list每一列交叉轴上的对齐格式：元素在交叉轴居中*/
+}
+.list-item{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    margin-bottom: 5px;
+}
+.div{
+    flex-direction: column;
+}
+
+.item_image {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.item_name {
+    margin:5px 8px 0px;
+    font-size: 12px;
+    color: #262626;
+}
+
+.item_title{
+    margin:3px 8px 8px;
+    font-size: 10px;
+    color: #AAAAAA;
+    max-lines: 2;
+    text-overflow: ellipsis;    /* 省略号 */
+}

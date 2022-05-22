@@ -1,0 +1,50 @@
+{
+  "data": {
+    "code":0,
+    "message":"0",
+    "ttl":1,
+    "data":{},
+    "color1": "",
+    "color2": "",
+    "color3": "",
+    "color4": "",
+    "color5": "",
+    "color6": "",
+    "color7": "",
+    "color8": ""
+  },
+  "actions": {
+    "sendMessageEvent1": {
+      "action": "message",
+      "params": 1
+    },
+    "sendMessageEvent2": {
+      "action": "message",
+      "params": 2
+    },
+    "sendMessageEvent3": {
+      "action": "message",
+      "params": 3
+    },
+    "sendMessageEvent4": {
+      "action": "message",
+      "params": 4
+    },
+    "sendMessageEvent5": {
+      "action": "message",
+      "params": 5
+    },
+    "sendMessageEvent6": {
+      "action": "message",
+      "params": 6
+    },
+    "sendMessageEvent7": {
+      "action": "message",
+      "params": 7
+    },
+    "sendMessageEvent8": {
+      "action": "message",
+      "params": 8
+    }
+  }
+}

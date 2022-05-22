@@ -1,0 +1,14 @@
+<div>
+    <div style="justify-content: center;width: 100%;height: 100%;" if="{{code}}">
+        <text style="font-size: 15px;" >{{message}}</text>
+    </div>
+    <div class="card_root_layout" else>
+        <div class="div_left_container">
+            <stack class="stack-parent" onclick="sendRouterEvent">
+                <image src="{{src}}" class="image_src"></image>
+                <image src="{{vip}}" class="image_vip"></image>
+            </stack>
+        </div>
+        <text class="item_title">{{follower}}</text>
+    </div>
+</div>

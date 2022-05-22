@@ -1,0 +1,72 @@
+/*.card_root_layout {*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: flex-start;*/
+/*    background-color: #F1F3F5;*/
+/*}*/
+
+/*@media (dark-mode: true) {*/
+/*    .card_root_layout {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        justify-content: flex-start;*/
+/*        background-color: #202224;*/
+/*    }*/
+/*}*/
+
+.stack-parent {
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-width: 1px;*/
+/*    border-style: solid;*/
+/*    background-color: #F1F3F5;*/
+}
+
+@media (dark-mode: true) {
+    .stack-parent {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #202224;
+    }
+}
+
+.item_image {
+/*    justify-content: flex-start;*/
+/*    align-items: flex-end;*/
+/*    background-color: #F7F7F7;*/
+}
+
+@media (dark-mode: true) {
+    .item_image {
+        justify-content: flex-start;
+        align-items: flex-end;
+        background-color: #F7F7F7;
+    }
+}
+
+.item_title {
+    width: 64px;
+    height: 14px;
+    font-size: 10px;
+    top: 88%;
+    margin-left: 12px;
+    max-lines:1;
+    color: #E5FFFFFF;
+    opacity: 1; /* 透明度 */
+/*    background-color: #FF0000;*/
+}
+
+@media (dark-mode: true) {
+    .item_title {
+        width: 64px;
+        height: 14px;
+        font-size: 10px;
+        top: 85%;
+        margin-left: 12px;
+        max-lines:1;
+        color: #000000;
+        opacity: 0.86; /* 透明度 */
+    /*        background-color: #34383C;*/
+    }
+}

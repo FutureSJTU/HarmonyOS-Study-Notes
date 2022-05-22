@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:id="$+id:image"
+        ohos:width="300vp"
+        ohos:height="300vp"
+        ohos:padding="100"
+        ohos:layout_alignment="center"
+        ohos:image_src="$media:icon"
+        ohos:scale_mode="zoom_center"/>
+    <Text
+        ohos:id="$+id:text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_video"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:video_HelloWorld"
+        ohos:text_size="20vp"
+        />
+    <ohos.agp.components.webengine.WebView
+        ohos:id="$+id:webview"
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+    </ohos.agp.components.webengine.WebView>
+
+</DirectionalLayout>

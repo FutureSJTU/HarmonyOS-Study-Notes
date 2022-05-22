@@ -1,0 +1,18 @@
+<div>
+    <div style="justify-content: center;width: 100%;height: 100%;" if="{{code}}">
+        <text>{{message}}</text>
+    </div>
+    <list class="list" else>
+        <list-item for="{{list}}" class="list-item">
+            <div class="div" onclick="sendRouteEvent">
+                <stack class="stack" >
+                    <image class="item_cover" src="{{ $item.cover }}" ></image>
+                    <text class="item_badge" style="background-color: {{$item.badge_info.bg_color}};">{{$item.badge}}</text>
+                    <text class="item_index_show">{{ $item.new_ep.index_show }}</text>
+                </stack>
+                <text class="item_title">{{ $item.title }}</text>
+                <text class="item_progress"style="color: {{$item.follow_status}};" >{{ $item.progress }}</text>
+            </div>
+        </list-item>
+    </list>
+</div>

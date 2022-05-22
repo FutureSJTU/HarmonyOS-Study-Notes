@@ -1,0 +1,324 @@
+{
+  "code":0,
+  "msg":"",
+  "message":"",
+  "data":{
+    "new_num":1,
+    "exist_gap":1,
+    "update_num":1,
+    "open_rcmd":1,
+    "cards":[
+      {
+        "desc":{
+          "uid":1871001,
+          "type":8,
+          "rid":716925696,
+          "acl":0,
+          "view":239015,
+          "repost":28,
+          "like":4624,
+          "is_liked":0,
+          "dynamic_id":551306120990537423,
+          "timestamp":1627199359,
+          "pre_dy_id":0,
+          "orig_dy_id":0,
+          "orig_type":0,
+          "user_profile":{
+            "info":{
+              "uid":1871001,
+              "uname":"棉花大哥哥",
+              "face":"https://i0.hdslb.com/bfs/face/4d58b08f51706f2a6e61e160c0a40fd3a6dce9a7.jpg"
+            },
+            "card":{
+              "official_verify":{
+                "type":0,
+                "desc":"bilibili 知名游戏UP主、直播签约主播"
+              }
+            },
+            "vip":{
+              "vipType":2,
+              "vipDueDate":1744905600000,
+              "vipStatus":1,
+              "themeType":0,
+              "label":{
+                "path":"",
+                "text":"年度大会员",
+                "label_theme":"annual_vip",
+                "text_color":"#FFFFFF",
+                "bg_style":1,
+                "bg_color":"#FB7299",
+                "border_color":""
+              },
+              "avatar_subscript":1,
+              "nickname_color":"#FB7299",
+              "role":3,
+              "avatar_subscript_url":"https://i0.hdslb.com/bfs/vip/icon_Certification_big_member_22_3x.png"
+            },
+            "pendant":{
+              "pid":4412,
+              "name":"C酱です",
+              "image":"https://i0.hdslb.com/bfs/garb/item/c3d1ff6bf11db86fd035aa2023a9eff69cbd0243.png",
+              "expire":0,
+              "image_enhance":"https://i0.hdslb.com/bfs/garb/item/c3d1ff6bf11db86fd035aa2023a9eff69cbd0243.png",
+              "image_enhance_frame":""
+            },
+            "decorate_card":{
+              "mid":1871001,
+              "id":4414,
+              "card_url":"https://i0.hdslb.com/bfs/garb/item/7b65e2277917bf33f182d1b431595d8486212b37.png",
+              "card_type":2,
+              "name":"C酱です粉丝专属",
+              "expire_time":0,
+              "card_type_name":"免费",
+              "uid":1871001,
+              "item_id":4414,
+              "item_type":3,
+              "big_card_url":"https://i0.hdslb.com/bfs/garb/item/7b65e2277917bf33f182d1b431595d8486212b37.png",
+              "jump_url":"https://www.bilibili.com/h5/mall/fans/recommend/4447?navhide=1&mid=1871001&from=dynamic",
+              "fan":{
+                "is_fan":1,
+                "number":9236,
+                "color":"#958bf9",
+                "num_desc":"009236"
+              },
+              "image_enhance":"https://i0.hdslb.com/bfs/garb/item/7b65e2277917bf33f182d1b431595d8486212b37.png"
+            },
+            "rank":"10000",
+            "sign":"商业合作237216991 bb空间代言人，专业的非洲抽奖主播。直播间皮肤抽奖从开播抽到下播。天选中奖把支付宝填在地址上周末不发奖",
+            "level_info":{
+              "current_level":6
+            }
+          },
+          "uid_type":1,
+          "stype":0,
+          "r_type":1,
+          "inner_id":0,
+          "status":1,
+          "dynamic_id_str":"551306120990537423",
+          "pre_dy_id_str":"0",
+          "orig_dy_id_str":"0",
+          "rid_str":"716925696",
+          "bvid":"BV1iX4y1c7Ei"
+        },
+        "card":{
+          "aid": 716925696,
+          "attribute": 0,
+          "cid": 376303916,
+          "copyright": 1,
+          "ctime": 1627199359,
+          "desc": "喜欢的小伙伴希望能够三连加关注支持一下\n看我动态抽100个648 关注我并转发动态就可参与抽奖哦",
+          "dimension": {
+            "height": 1080,
+            "rotate": 0,
+            "width": 1920
+          },
+          "duration": 349,
+          "dynamic": "",
+          "first_frame": "https:\/\/i2.hdslb.com\/bfs\/storyff\/n210725a22nbbo78f6zkmp12dzollf48_firsti.jpg",
+          "item": {
+            "at_control": ""
+          },
+          "jump_url": "bilibili:\/\/video\/716925696\/?page=1&player_preload=null&player_width=1920&player_height=1080&player_rotate=0",
+          "mission_id": 61490,
+          "owner": {
+            "face": "https:\/\/i0.hdslb.com\/bfs\/face\/4d58b08f51706f2a6e61e160c0a40fd3a6dce9a7.jpg",
+            "mid": 1871001,
+            "name": "棉花大哥哥"
+          },
+          "pic": "https:\/\/i2.hdslb.com\/bfs\/archive\/58395ccaa134afd745ebfa2a965d2c8a28b6c30a.jpg",
+          "player_info": null,
+          "pubdate": 1627199358,
+          "rights": {
+            "autoplay": 1,
+            "bp": 0,
+            "download": 0,
+            "elec": 0,
+            "hd5": 0,
+            "is_cooperation": 0,
+            "movie": 0,
+            "no_background": 0,
+            "no_reprint": 1,
+            "pay": 0,
+            "ugc_pay": 0,
+            "ugc_pay_preview": 0
+          },
+          "short_link": "https:\/\/b23.tv\/BV1iX4y1c7Ei",
+          "short_link_v2": "https:\/\/b23.tv\/BV1iX4y1c7Ei",
+          "stat": {
+            "aid": 716925696,
+            "coin": 313,
+            "danmaku": 240,
+            "dislike": 0,
+            "favorite": 268,
+            "his_rank": 0,
+            "like": 4624,
+            "now_rank": 0,
+            "reply": 705,
+            "share": 153,
+            "view": 50217
+          },
+          "state": 0,
+          "tid": 172,
+          "title": "T0爆发冰c 神里0命综合测评以及配装配队思路",
+          "tname": "手机游戏",
+          "videos": 1
+        },
+        "extend_json":"{\"\":{\"ogv\":{\"ogv_id\":0}},\"dispute\":{\"content\":\"\"},\"from\":{\"from\":\"\"},\"like_icon\":{\"action\":\"\",\"action_url\":\"\",\"end\":\"\",\"end_url\":\"\",\"start\":\"\",\"start_url\":\"\"},\"topic\":{\"is_attach_topic\":1}}",
+        "activity_infos":{
+          "details":[
+            {
+              "type":1,
+              "detail":"{\"is_show\":1,\"topic_id\":18957190,\"topic_link\":\"https:\\/\\/www.bilibili.com\\/blackboard\\/activity-btLCSzTTsK.html#\\/\",\"topic_name\":\"原神UP主激励计划\"}"
+            }
+          ]
+        },
+        "display":{
+          "topic_info":{
+            "topic_details":[
+              {
+                "topic_id":18957190,
+                "topic_name":"原神UP主激励计划",
+                "is_activity":1,
+                "topic_link":"https://www.bilibili.com/blackboard/activity-btLCSzTTsK.html#/"
+              },
+              {
+                "topic_id":16812779,
+                "topic_name":"原神高能团",
+                "is_activity":1,
+                "topic_link":"https://www.bilibili.com/blackboard/activity-6pFhjNmNra.html"
+              },
+              {
+                "topic_id":10920203,
+                "topic_name":"神里绫华",
+                "is_activity":1,
+                "topic_link":"https://www.bilibili.com/blackboard/dynamic/73466"
+              },
+              {
+                "topic_id":7945544,
+                "topic_name":"原神",
+                "is_activity":0,
+                "topic_link":""
+              },
+              {
+                "topic_id":3395486,
+                "topic_name":"棉花大哥哥",
+                "is_activity":0,
+                "topic_link":""
+              },
+              {
+                "topic_id":257974,
+                "topic_name":"手游",
+                "is_activity":0,
+                "topic_link":""
+              }
+            ]
+          },
+          "usr_action_txt":"投稿了视频",
+          "relation":{
+            "status":2,
+            "is_follow":1,
+            "is_followed":0
+          },
+          "comment_info":{
+            "comments":[
+              {
+                "uid":678467614,
+                "name":"会会绘梨衣",
+                "content":"平民怎么会有原石抽雾切[大哭][大哭][大哭]"
+              }
+            ],
+            "emojis":[
+              {
+                "emoji_name":"[大哭]",
+                "url":"https://i0.hdslb.com/bfs/emote/2caafee2e5db4db72104650d87810cc2c123fc86.png",
+                "meta":{
+                  "size":1
+                }
+              }
+            ],
+            "comment_ids":"4987832827"
+          },
+          "tags":[
+            {
+              "tag_type":3,
+              "sub_type":1,
+              "icon":"https://i0.hdslb.com/bfs/album/4c1880a3e9d5fd2c72b339929a73a4b83d2bab93.png",
+              "text":"原神UP主激励计划",
+              "link":"https://www.bilibili.com/blackboard/activity-btLCSzTTsK.html#/?topic_from=topic-card&name=%E5%8E%9F%E7%A5%9EUP%E4%B8%BB%E6%BF%80%E5%8A%B1%E8%AE%A1%E5%88%92",
+              "rid":18957190,
+              "sub_module":"topic"
+            }
+          ],
+          "live_info":{
+            "live_status":1,
+            "live_url":""
+          },
+          "show_tip":{
+            "del_tip":"要删除动态吗？"
+          },
+          "cover_play_icon_url":"https://i0.hdslb.com/bfs/album/2269afa7897830b397797ebe5f032b899b405c67.png"
+        }
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "attentions":{
+      "uids":[
+        946974,
+        1871001,
+        2200736,
+        2627161,
+        5191778,
+        6376879,
+        6739643,
+        10119428,
+        18409580,
+        32820037,
+        36081646,
+        37663924,
+        66606350,
+        124592740,
+        163637592,
+        175327589,
+        214726950,
+        238681555,
+        280793434,
+        320195588,
+        326499679,
+        383565952,
+        456664753,
+        470871878,
+        472747194,
+        490119553,
+        491461718,
+        517327498
+      ],
+      "bangumis":[
+        {
+          "season_id":3863,
+          "type":4
+        }
+      ]
+    },
+    "max_dynamic_id":551306120990537423,
+    "history_offset":550659152892144131,
+    "_gt_":0
+  }
+}

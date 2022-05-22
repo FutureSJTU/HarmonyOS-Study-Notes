@@ -1,0 +1,90 @@
+<tabs onchange="change">
+    <tab-bar>
+        <div class="title">
+            <text>玫瑰</text>
+        </div>
+        <div class="title">
+            <text>菊花</text>
+        <dialog id="simpledialog" oncancel="cancelDialog">
+            <div class="dialog-div">
+                <div class="inner-txt">
+                    <text class="txt">是否切换到玫瑰介绍？</text>
+                </div>
+                <div class="inner-btn">
+                    <button type="capsule" value="确认" onclick="setSchedule" class="btn-txt"></button>
+                    <button type="capsule" value="取消" onclick="cancelSchedule" class="btn-txt"></button>
+                </div>
+            </div>
+        </dialog>
+        </div>
+        <div class="title">
+        <text>向日葵</text>
+        </div>
+    </tab-bar>
+    <tab-content>
+        <div class="container">
+            <image class="img" src="{{Image1}}"></image>
+            <div class="item {{colorParam}}">
+                <text class="details">玫瑰（学名：Rosa ssp. 英文名称：Rosa）：是蔷薇目，蔷薇科、蔷薇属多种植物和培育花卉的通称名字。直立、蔓延或攀援灌木，多数被有皮刺、针刺或刺毛，稀无刺，有毛、无毛或有腺毛。叶互生；花单生；花托球形、坛形至杯形；花瓣5，稀4，开展，覆瓦状排列，白色、黄色，粉红色至红色；花柱顶生至侧生，外伸，离生或上部合生；花瓣倒卵形，重瓣至半重瓣，花有紫红色、黄色、粉色、白色和各种复色。</text>
+            </div>
+        </div>
+        <div class="container">
+            <image class="img" src="{{Image2}}"></image>
+                <text class="details">菊花（学名：Chrysanthemum × morifolium Ramat [18]  ）：在植物分类学中是菊科、菊属的多年生宿根草本植物。按栽培形式分为多头菊、独本菊、大丽菊、悬崖菊、艺菊、案头菊等栽培类型；有按花瓣的外观形态分为园抱、退抱、反抱、乱抱、露心抱、飞午抱等栽培类型。不同类型里的菊花又命名各种各样的品种名称。</text>
+        </div>
+        <div class="container">
+        <list class="list">
+            <list-item type="listItem">
+                <div class="list">
+                    <div class="picture">
+                    <image class="img" src="{{fruit1}}"></image>
+                    </div>
+                    <div class="list-txt">
+                        <text>橘子</text>
+                    </div>
+                </div>
+            </list-item>
+            <list-item type="listItem">
+                <div class="list">
+                    <div class="picture">
+                        <image class="img" src="{{fruit2}}"></image>
+                    </div>
+                    <div class="list-txt">
+                        <text>苹果</text>
+                    </div>
+                </div>
+            </list-item>
+            <list-item type="listItem">
+                <div class="list">
+                    <div class="picture">
+                        <image class="img" src="{{fruit3}}"></image>
+                    </div>
+                    <div class="list-txt">
+                        <text>葡萄</text>
+                    </div>
+                </div>
+            </list-item>
+            <list-item type="listItem">
+                <div class="list">
+                    <div class="picture">
+                        <image class="img" src="{{fruit4}}"></image>
+                    </div>
+                    <div class="list-txt">
+                        <text>西瓜</text>
+                    </div>
+                </div>
+            </list-item>
+            <list-item type="listItem">
+                <div class="list">
+                    <div class="picture">
+                        <image class="img" src="{{fruit5}}"></image>
+                    </div>
+                    <div class="list-txt">
+                        <text>香蕉</text>
+                    </div>
+                </div>
+            </list-item>
+        </list>
+        </div>
+    </tab-content>
+</tabs>
