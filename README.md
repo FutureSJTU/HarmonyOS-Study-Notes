@@ -1,2 +1,2 @@
 # HarmonyOS_Study_Notes
- Course CS-178-1
+ notes of Course CS-178-1
